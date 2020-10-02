@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rider Registration</title>
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./riderReg.css">
+</head>
+
+<body>
+  <div class="marginBox">
+      <div class="registrationForm">
+        <div class="row">
+            <img src="https://safeboda.com/ng/media/vertical_opengraph_logo.png" alt="orange logo" style="margin-left: 30px; padding: 10px; width: 80px; height: 80px;">
+          
+            <div class= "navigate">
+              <a href="../riderList/riderList.html" class="btn btn-secondary" role="button"> View Riders List</a>
+              <a href="../dashboard/dashboard.html" class="btn btn-secondary"> Dashboard </a>
+            </div>
+          
+        </div>
+
+        <h3>Register Rider Details</h3>
+
+        <div>
+          
+          <form>
+            <div class="form-group">
+                <input placeholder="First Name..." class="form-control" type="text" id="inputFname">
+                <input placeholder="Last Name..." class="form-control" type="text" id="inputLname">
+                <input placeholder="Age..." class="form-control" type="number" id="age">
+                <input placeholder="National identification Number (NIN)..." class="form-control" type="text" id="NIN">
+                <input placeholder="Boda Stage Address..." class="form-control" type="text" id="bodaStage">
+                <input placeholder="Recruitment Station/Address..." class="form-control" type="text" id="recruitmentAddress">
+                <input placeholder="Email..." class="form-control" type="email" id="email">
+                <input placeholder="Phone Number..." class="form-control" type="tel" id="phone">
+                  <div class="form-inline mx-auto" style="width: 80%;">
+                    <label for="recruitmentDate" class="col-md-3"><b>Recruitment Date :</b></label>
+                    <input placeholder="Recruitment Date..." class="mx-sm-1 form-control" type="date" id="recruitmentDate">
+                  </div>
+                <input placeholder="Referal Name..." class="form-control" type="text" id="referal">
+                <input placeholder="Next of Kin..." class="form-control" type="text" id="kinName">
+                <input placeholder="Next of Kin's contact..." class="form-control" type="text" id="kinContact">
+                  <div class="custom-file" style="width: 80%;">
+                    <input type="file" class="custom-file-input" id="uploadPhoto">
+                    <label class="custom-file-label" for="uploadPhoto"> Upload Photo </label>
+                  </div>
+
+                <div class="submitBtn">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block"
+                  onclick="myFunction()"> Submit </button>
+                </div>
+          </form>
+
+        </div>
+      </div>
+
+  </div>
+
+    <script src = "riderReg.js"></script>
+    <script>
+      function myFunction() {
+        alert("Rider successfuly registerd!");
+      }
+      </script>
+
+</body>
+</html>

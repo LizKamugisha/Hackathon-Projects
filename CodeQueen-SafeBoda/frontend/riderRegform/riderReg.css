@@ -1,0 +1,47 @@
+body {
+    background-color:rgba(255, 136, 0, 0.911);
+}
+
+.marginBox {
+    width: 1200px;
+    height: 800px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.registrationForm{
+    background-color: white;
+    background-position: center center;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form-group input {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.navigate a {
+    background:rgba(255, 136, 0, 0.911);
+    float: right;
+    margin-left: 10px;
+}
+
+.registrationForm h3 {
+    color: rgba(24, 72, 87, 1);
+    font-family: "Robboto", sans-serif;
+    font-weight: bold;
+}
+
+.navigate {
+    width: 80%;}
+
+.submitBtn button {
+    background:rgba(24, 72, 87, 1);
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 110px;
+};
